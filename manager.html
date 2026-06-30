@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manager Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div>
+                <h2>Welcome, Arthur Dent</h2>
+                <div style="font-size: 14px; color: #666;">
+                    Designation: <strong>Regional Operations Manager</strong>
+                </div>
+            </div>
+            <div>
+                <span class="badge badge-manager">Manager</span>
+                <a href="/login.html" class="logout-link" style="margin-left: 15px;">Log Out</a>
+            </div>
+        </div>
+
+        <!-- Team Performance Section -->
+        <div class="section">
+            <h4>Team Performance</h4>
+            <ul>
+                <li>Team Attendance: 84.5%</li>
+                <li>Tasks Completed: 28 / 32</li>
+                <li>Active Projects: 3</li>
+            </ul>
+        </div>
+
+        <!-- Approvals Queue Section -->
+        <div class="section">
+            <h4>Pending Approvals</h4>
+            <ul>
+                <li style="margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; width: 400px;">
+                    <span>Rayan Leave Request</span>
+                    <button class="action-btn" onclick="alert('Approved Rayan\'s leave request.')">Approve</button>
+                </li>
+                <li style="margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; width: 400px;">
+                    <span>Annual Leave Request (Kanishk)</span>
+                    <button class="action-btn" onclick="alert('Approved Kanishk\'s leave request.')">Approve</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Team Reports Section -->
+        <div class="section">
+            <h4>Department Actions</h4>
+            <div style="display: flex; gap: 10px; margin-top: 10px;">
+                <button class="action-btn" onclick="alert('Downloading Monthly Performance PDF...')">Download Monthly Report</button>
+                <button class="action-btn" onclick="alert('Opening team schedule...')">View Team Schedule</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

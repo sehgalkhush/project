@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Workspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <!-- Header Section -->
+        <div class="header">
+            <div>
+                <h2>Hello,</h2>
+                <div style="font-size: 14px; color: #666;">
+                    Designation: <strong>Junior Software Engineer</strong>
+                </div>
+            </div>
+            <div>
+                <span class="badge badge-employee">Employee</span>
+                <a href="/login.html" class="logout-link" style="margin-left: 15px;">Log Out</a>
+            </div>
+        </div>
+
+        <!-- Task Checklist Section -->
+        <div class="section">
+            <h4>My Tasks Checklist</h4>
+            <ul style="list-style: none; padding-left: 0;">
+                <li><input type="checkbox"> Setup local development server</span></li>
+                <li><input type="checkbox"> Submit Project for June</li>
+                <li><input type="checkbox"> Prepare notes for the next task</li>
+            </ul>
+        </div>
+
+        <!-- Time Tracker Section -->
+        <div class="section">
+            <h4>Weekly Time Tracker</h4>
+            <ul>
+                <li>Hours Logged: 6.5 / 8.0</li>
+                <li>Current Task: June Project</li>
+            </ul>
+        </div>
+
+        <!-- Corporate Resources Section -->
+        <div class="section">
+            <h4>Quick Bookmarks</h4>
+            <div style="display: flex; gap: 10px; margin-top: 10px;">
+                <button class="action-btn" onclick="alert('...')"></button>
+                <button class="action-btn" onclick="alert('...')"></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
