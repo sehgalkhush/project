@@ -7,10 +7,10 @@
 </head>
 <body>
 
-    <div class="dashboard-container">
+    <div class="dash-box">
         <div class="header">
             <div>
-                <h2>Welcome,</h2>
+                <h2>Welcome, Raghvendra</h2>
                 <div style="font-size: 14px; color: #666;">
                     Designation: <strong>Lead System Administrator</strong>
                 </div>
@@ -19,15 +19,6 @@
                 <span class="badge badge-admin">Admin</span>
                 <a href="/login.html" class="logout-link" style="margin-left: 15px;">Log Out</a>
             </div>
-        </div>
-
-        <div class="section">
-            <h4>System Health Status</h4>
-            <ul>
-                <li>Server Load: 12% (Normal)</li>
-                <li>Server Memory Usage: 42% (Normal)</li>
-                <li>Status: Online</li>
-            </ul>
         </div>
 
         <div class="section">
@@ -40,11 +31,20 @@
         </div>
 
         <div class="section">
-            <h4>Administrative Controls</h4>
+            <h4>System Health</h4>
+            <ul>
+                <li>Server Load: 12% (Normal)</li>
+                <li>Memory Usage: 42% (Normal)</li>
+                <li>Status: Online</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h4>Admin Controls</h4>
             <div style="display: flex; gap: 10px; margin-top: 10px;">
-                <button class="action-btn" onclick="alert('Starting backup...')">Backup Database</button>
-                <button class="action-btn" onclick="alert('Reloading database...')">Reload Database</button>
-                <button class="action-btn" onclick="alert('Putting server into maintenance...')">Maintenance Mode</button>
+                <button class="mini-btn" onclick="alert('Backup started')">Backup Database</button>
+                <button class="mini-btn" onclick="alert('Reloading...')">Reload Database</button>
+                <button class="mini-btn" onclick="alert('Server going into maintenance')">Maintenance Mode</button>
             </div>
         </div>
     </div>
