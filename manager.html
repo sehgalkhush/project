@@ -7,11 +7,10 @@
 </head>
 <body>
 
-    <div class="dashboard-container">
-        <!-- Header Section -->
+    <div class="dash-box">
         <div class="header">
             <div>
-                <h2>Welcome, </h2>
+                <h2>Welcome, Manager</h2>
                 <div style="font-size: 14px; color: #666;">
                     Designation: <strong>Operations Manager</strong>
                 </div>
@@ -22,37 +21,34 @@
             </div>
         </div>
 
-        <!-- Team Performance Section -->
-        <div class="section">
-            <h4>Team Performance</h4>
-            <ul>
-                <li>Team Attendance: 84.5%</li>
-                <li>Tasks Completed: 28 / 32</li>
-                <li>Active Projects: 3</li>
-            </ul>
-        </div>
-
-        <!-- Approvals Queue Section -->
         <div class="section">
             <h4>Pending Approvals</h4>
             <ul>
                 <li style="margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; width: 400px;">
                     <span>Rayan Leave Request</span>
-                    <button class="action-btn" onclick="alert('Approved Rayan\'s leave request.')">Approve</button>
+                    <button class="mini-btn" onclick="alert('Approved Rayan leave')">Approve</button>
                 </li>
                 <li style="margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; width: 400px;">
                     <span>Annual Leave Request (Kanishk)</span>
-                    <button class="action-btn" onclick="alert('Approved Kanishk\'s leave request.')">Approve</button>
+                    <button class="mini-btn" onclick="alert('Approved Kanishk leave')">Approve</button>
                 </li>
             </ul>
         </div>
 
-        <!-- Team Reports Section -->
+        <div class="section">
+            <h4>Team Overview</h4>
+            <ul>
+                <li>Attendance: 84.5%</li>
+                <li>Tasks Done: 28 / 32</li>
+                <li>Active Projects: 3</li>
+            </ul>
+        </div>
+
         <div class="section">
             <h4>Actions</h4>
             <div style="display: flex; gap: 10px; margin-top: 10px;">
-                <button class="action-btn" onclick="alert('Downloading Monthly Performance PDF...')">Download Monthly Report</button>
-                <button class="action-btn" onclick="alert('Opening team schedule...')">View Team Schedule</button>
+                <button class="mini-btn" onclick="alert('Downloading report...')">Download Monthly Report</button>
+                <button class="mini-btn" onclick="alert('Opening schedule...')">View Team Schedule</button>
             </div>
         </div>
     </div>
