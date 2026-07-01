@@ -24,18 +24,18 @@ h2, h3 {
     color: #222222;
 }
 
-.form-group {
+.field-wrap {
     margin-bottom: 15px;
 }
 
-.form-group label {
+.field-wrap label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 14px;
 }
 
-.form-control {
+.text-input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
@@ -44,7 +44,7 @@ h2, h3 {
     font-size: 14px;
 }
 
-.form-control:focus {
+.text-input:focus {
     outline: none;
     border-color: #0066cc;
 }
@@ -76,7 +76,7 @@ h2, h3 {
     display: none;
 }
 
-.dashboard-container {
+.dash-box {
     background-color: #ffffff;
     border: 1px solid #cccccc;
     border-radius: 6px;
@@ -130,7 +130,7 @@ ul {
     line-height: 1.6;
 }
 
-.action-btn {
+.mini-btn {
     background-color: #5bc0de;
     color: white;
     border: none;
@@ -140,6 +140,6 @@ ul {
     font-size: 12px;
 }
 
-.action-btn:hover {
+.mini-btn:hover {
     background-color: #31b0d5;
 }
